@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  app16:
+    image: app16
+    build:
+      context: .\App16
+      dockerfile: Dockerfile
